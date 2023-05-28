@@ -27,6 +27,11 @@ jobs:
       shell: cmd
       run: type %TEMP%\install-log.log
       
+    - name: set
+      shell: cmd
+      run: |
+        set
+      
       
 
 #     - name: set PATH, check mingw version, cmake generate, build and install
