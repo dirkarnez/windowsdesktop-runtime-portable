@@ -30,7 +30,7 @@ jobs:
     - name: cd
       shell: cmd
       run: |
-        cd /d "C:\" &&^
+        cd /d "C:\ProgramData" &&^
         dir /s
       
       
